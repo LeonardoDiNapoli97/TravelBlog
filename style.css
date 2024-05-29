@@ -72,3 +72,12 @@ body {
     height: 10%;
     background-color: var(--sec-color);
 }
+
+/* .img-car{
+    width: 100vh;
+} */
+
+.desticky{
+    position: sticky;
+    top: 150px;
+}
