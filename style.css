@@ -1,0 +1,55 @@
+body {
+    font-family: "Bitter", serif;
+}
+
+.font-dosis{
+    font-family: "Dosis", sans-serif !important;
+}
+
+/* colori */
+:root{
+    --det-color:rgb(27,92,67);
+    --sec-color: rgb(130,145,69);
+    --acc-color:rgb(60,110,128);
+}
+/* testo */
+.tx-1 {
+    color: var(--det-color);
+}
+
+.tx-2{
+    color: var(--det-color);
+}
+
+.tx-acc{
+    color: var(--sec-color);
+}
+
+
+/* BGC*/
+
+.bg-1 {
+    color: var(--det-color);
+}
+
+.bg-2{
+    color: var(--sec-color);
+}
+
+.bg-acc{
+    color: var(--acc-color);
+}
+
+/* border*/
+
+.borde-1{
+    border: 1px solid var(--det-color);
+}
+
+.borde-2{
+    border: 1px solid var(--sec-color);
+}
+
+.borde-acc{
+    border: 1px solid var(--acc-color);
+}
