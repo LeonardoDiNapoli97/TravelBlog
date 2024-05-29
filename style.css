@@ -29,15 +29,15 @@ body {
 /* BGC*/
 
 .bg-1 {
-    color: var(--det-color);
+    background-color: var(--det-color);
 }
 
 .bg-2{
-    color: var(--sec-color);
+    background-color:  var(--sec-color);
 }
 
 .bg-acc{
-    color: var(--acc-color);
+    background-color:  var(--acc-color);
 }
 
 /* border*/
@@ -52,4 +52,8 @@ body {
 
 .borde-acc{
     border: 1px solid var(--acc-color);
+}
+
+.navbar-toggler:focus {  
+    box-shadow:none !important ;
 }
