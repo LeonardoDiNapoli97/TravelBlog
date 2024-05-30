@@ -18,11 +18,11 @@ body {
 }
 
 .tx-2{
-    color: var(--det-color);
+    color: var(--sec-color);
 }
 
 .tx-acc{
-    color: var(--sec-color);
+    color: var(--acc-color);
 }
 
 
@@ -73,11 +73,18 @@ body {
     background-color: var(--sec-color);
 }
 
-/* .img-car{
-    width: 100vh;
-} */
+.img-car{
+    width: 100%;
+}
 
 .desticky{
     position: sticky;
-    top: 150px;
+    top: 200px;
 }
+
+.bg-image {
+    background-image: url('/images/mountain-sea.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
