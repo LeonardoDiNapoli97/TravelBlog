@@ -2,26 +2,27 @@ body {
     font-family: "Bitter", serif;
 }
 
-.font-dosis{
+.font-dosis {
     font-family: "Dosis", sans-serif !important;
 }
 
 /* colori */
-:root{
-    --det-color:rgb(27,92,67);
-    --sec-color: rgb(130,145,69);
-    --acc-color:rgb(60,110,128);
+:root {
+    --det-color: rgb(27, 92, 67);
+    --sec-color: rgb(130, 145, 69);
+    --acc-color: rgb(60, 110, 128);
 }
+
 /* testo */
 .tx-1 {
     color: var(--det-color);
 }
 
-.tx-2{
+.tx-2 {
     color: var(--sec-color);
 }
 
-.tx-acc{
+.tx-acc {
     color: var(--acc-color);
 }
 
@@ -32,39 +33,39 @@ body {
     background-color: var(--det-color);
 }
 
-.bg-2{
-    background-color:  var(--sec-color);
+.bg-2 {
+    background-color: var(--sec-color);
 }
 
-.bg-acc{
-    background-color:  var(--acc-color);
+.bg-acc {
+    background-color: var(--acc-color);
 }
 
 /* border*/
 
-.borde-1{
+.borde-1 {
     border-bottom: 4px solid var(--det-color) !important;
 }
 
-.borde-2{
+.borde-2 {
     border-bottom: 4px solid var(--sec-color) !important;
 }
 
-.borde-acc{
+.borde-acc {
     border-bottom: 4px solid var(--acc-color) !important;
 }
 
-.navbar-toggler:focus {  
-    box-shadow:none !important ;
+.navbar-toggler:focus {
+    box-shadow: none !important;
 }
 
-.design-underline{
+.design-underline {
     position: relative;
 }
 
-.design-underline::after{
+.design-underline::after {
     position: absolute;
-    content: '' ;
+    content: '';
     bottom: -10%;
     left: 25%;
     right: 25%;
@@ -73,11 +74,11 @@ body {
     background-color: var(--sec-color);
 }
 
-.img-car{
+.img-car {
     width: 100%;
 }
 
-.desticky{
+.desticky {
     position: sticky;
     top: 200px;
 }
@@ -87,4 +88,59 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-  }
+}
+
+.carousel-item-head {
+    height: 75vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: var(--det-color);
+    border: 1px solid white;
+    
+}
+
+.slide1{
+    height: 80vh;
+    width: 100%;
+    background: url(/carousel-images/bali3grande.jpg);
+    background-position: center ;
+    background-size: cover ;
+}
+
+.slide2{
+    height: 80vh;
+    width: 100%;
+    background: url(/carousel-images/iceland.jpg);
+    background-position: center ;
+    background-size: cover ;
+}
+
+.slide3{
+    height: 80vh;
+    width: 100%;
+    background: url(/carousel-images/romagrande.jpg);
+    background-position: center ;
+    background-size: cover ;
+}
+
+.carousel-caption{
+    position: absolute;
+    top: 30%;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.carousel-item.active .carousel-caption{
+   opacity: 1;
+   top: 45%;
+}

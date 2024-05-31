@@ -37,16 +37,16 @@
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
                     <li class="nav-item mx-md-2">
-                        <a class="nav-link tx-1" href="#">Valori</a>
+                        <a class="nav-link tx-1" href="#valori">Valori</a>
                     </li>
                     <li class="nav-item mx-md-2">
-                        <a class="nav-link tx-1" href="#">Tours</a>
+                        <a class="nav-link tx-1" href="#tours">Tours</a>
                     </li>
                     <li class="nav-item mx-md-2">
-                        <a class="nav-link tx-1" href="#">Voli</a>
+                        <a class="nav-link tx-1" href="#voli">Voli</a>
                     </li>
                     <li class="nav-item mx-md-2">
-                        <a class="nav-link tx-1" href="#">Link</a>
+                        <a class="nav-link tx-1" href="#prenota">Prenota</a>
                     </li>
 
 
@@ -75,16 +75,16 @@
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
                 <li class="nav-item mx-md-2">
-                    <a class="nav-link tx-1" href="#">Valori</a>
+                    <a class="nav-link tx-1" href="#valori">Valori</a>
                 </li>
                 <li class="nav-item mx-md-2">
-                    <a class="nav-link tx-1" href="#">Tours</a>
+                    <a class="nav-link tx-1" href="#tours">Tours</a>
                 </li>
                 <li class="nav-item mx-md-2">
-                    <a class="nav-link tx-1" href="#">Destinazioni</a>
+                    <a class="nav-link tx-1" href="#voli">Voli</a>
                 </li>
                 <li class="nav-item mx-md-2">
-                    <a class="nav-link tx-1" href="#">Link</a>
+                    <a class="nav-link tx-1" href="#prenota">Prenota</a>
                 </li>
 
 
@@ -142,11 +142,44 @@
         </div>
     </div>
 
+    <!--Sezione Hero-->
+    <header class="position-relative">
+        <div id="carouselExampleCaptions" class="carousel slide carousel-fade">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item carousel-item-head active slide1">
+                    <div class="carousel-caption">
+                        <h1 class="display-2 fw-bold">Scopri con noi</h1>
+                        <p class="lead font-dosis">Some representative placeholder content for the first slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item carousel-item-head slide2">
+                    <div class="carousel-caption">
+                        <h1 class="display-2 fw-bold">Prenota pacchetti</h1>
+                        <p class="lead font-dosis">Some representative placeholder content for the second slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item carousel-item-head slide3">
+                    <div class="carousel-caption">
+                        <h1 class="display-2 fw-bold">Viaggia sicuro</h1>
+                        <p class="lead font-dosis">Some representative placeholder content for the third slide.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
     <!--Section Valori-->
-    <div class="container mt-5 pt-5">
+    <div class="container  pt-5" id="valori">
         <div class="row">
             <div class="col-12 text-center">
-                <h2 class="font-dosis tx-1">Perchè scegliere i nostri pacchetti</h2>
+                <h2 class=" tx-1">Perchè scegliere i nostri pacchetti</h2>
                 <p class="tx-2"> Offriamo da anni la possibilità di scegliere tra più di 20 Tours in ogni periodo
                     dell'anno; abbiamo soddisfatto più di 500 clienti, dando loro la possibilità di scegliere tra comodi
                     pacchetti e di raggiungere più di 150 mete in tutto il Mondo! </p>
@@ -154,7 +187,6 @@
         </div>
     </div>
     <div class="container">
-
         <div class="row mt-2 pt-3">
             <div class="col-12 col-md-3">
                 <div class="card d-block mx-auto  rounded-0 border-0 shadow borde-2 px-1" style="width: 18rem;">
@@ -239,8 +271,17 @@
 
         </div>
     </div>
-
-
+    <!--Section Tours-->
+    <div class="container  pt-5" id="tours">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h2 class="tx-1">Scopri i nostri Tours</h2>
+                <p class="tx-2"> Offriamo da anni la possibilità di scegliere tra più di 20 Tours in ogni periodo
+                    dell'anno; abbiamo soddisfatto più di 500 clienti, dando loro la possibilità di scegliere tra comodi
+                    pacchetti e di raggiungere più di 150 mete in tutto il Mondo! </p>
+            </div>
+        </div>
+    </div>
     <!--Section Roma-->
     <div class="container my-3">
         <div class="row align-items-center">
@@ -427,7 +468,7 @@
     </div>
 
     <!-- Section Voli-->
-    <div class="container my-5 py-5">
+    <div id="voli" class="container my-5 py-5">
         <div class="row">
             <div class="col-12 col-md-6 mb-3">
                 <div class="desticky">
@@ -453,9 +494,8 @@
                                 </div>
                                 <div class="card-body">
                                     <h5 class="card-title tx-1">Lisbona</h5>
-                                    <p class="card-text font-dosis tx-2">Some quick example text to build on the card
-                                        title and make up
-                                        the bulk of the card's content.</p>
+                                    <h6 class="card-title tx-1">FCO Roma - LIS Lisbona </h6>
+                                    <h6 class="card-title tx-1">194€ </h6>
                                     <a href="#"
                                         class="bg-acc text-white  border-0 py-2 px-4 rounded-0 font-dosis  position-absolute  end-0 text-decoration-none">Prenota</a>
                                 </div>
@@ -466,9 +506,8 @@
                                 <img src="/images/london.jpg" class="card-img-top rounded-0" alt="...">
                                 <div class="card-body">
                                     <h5 class="card-title tx-1">Londra</h5>
-                                    <p class="card-text font-dosis tx-2">Some quick example text to build on the card
-                                        title and make up
-                                        the bulk of the card's content.</p>
+                                    <h6 class="card-title tx-1">MXP Milano-LTN Londra </h6>
+                                    <h6 class="card-title tx-1">116€ </h6>
                                     <a href="#"
                                         class="bg-acc text-white  border-0 py-2 px-4 rounded-0 font-dosis  position-absolute  end-0 text-decoration-none">Prenota</a>
                                 </div>
@@ -479,9 +518,8 @@
                                 <img src="/images/amsterdam.jpg" class="card-img-top rounded-0" alt="...">
                                 <div class="card-body">
                                     <h5 class="card-title tx-1">Amsterdam</h5>
-                                    <p class="card-text font-dosis tx-2">Some quick example text to build on the card
-                                        title and make up
-                                        the bulk of the card's content.</p>
+                                    <h6 class="card-title tx-1">NAP Napoli-AMS Amsterdam </h6>
+                                    <h6 class="card-title tx-1">89€ </h6>
                                     <a href="#"
                                         class="bg-acc text-white  border-0 py-2 px-4 rounded-0 font-dosis  position-absolute  end-0 text-decoration-none">Prenota</a>
                                 </div>
@@ -492,9 +530,8 @@
                                 <img src="/images/newyork.jpg" class="card-img-top rounded-0" alt="...">
                                 <div class="card-body">
                                     <h5 class="card-title tx-1">New York</h5>
-                                    <p class="card-text font-dosis tx-2">Some quick example text to build on the card
-                                        title and make up
-                                        the bulk of the card's content.</p>
+                                    <h6 class="card-title tx-1">FLR Firenze - JFK New York</h6>
+                                    <h6 class="card-title tx-1">507€ </h6>
                                     <a href="#"
                                         class="bg-acc text-white  border-0 py-2 px-4 rounded-0 font-dosis  position-absolute  end-0 text-decoration-none">Prenota</a>
                                 </div>
@@ -505,9 +542,9 @@
                                 <img src="/images/budapest.jpg" class="card-img-top rounded-0" alt="...">
                                 <div class="card-body">
                                     <h5 class="card-title tx-1">Budapest</h5>
-                                    <p class="card-text font-dosis tx-2">Some quick example text to build on the card
-                                        title and make up
-                                        the bulk of the card's content.</p>
+                                    <h6 class="card-title tx-1">CIA Roma Ciampino-BUD Budapest
+                                    </h6>
+                                    <h6 class="card-title tx-1">34€ </h6>
                                     <a href="#"
                                         class="bg-acc text-white  border-0 py-2 px-4 rounded-0 font-dosis  position-absolute  end-0 text-decoration-none">Prenota</a>
                                 </div>
@@ -518,9 +555,8 @@
                                 <img src="/images/dubai.jpg" class="card-img-top rounded-0" alt="...">
                                 <div class="card-body">
                                     <h5 class="card-title tx-1">Dubai</h5>
-                                    <p class="card-text font-dosis tx-2">Some quick example text to build on the card
-                                        title and make up
-                                        the bulk of the card's content.</p>
+                                    <h6 class="card-title tx-1">FCO Roma - DXB Dubai</h6>
+                                    <h6 class="card-title tx-1">568€ </h6>
                                     <a href="#"
                                         class="bg-acc text-white  border-0 py-2 px-4 rounded-0 font-dosis  position-absolute  end-0 text-decoration-none">Prenota</a>
                                 </div>
@@ -536,7 +572,7 @@
     </div>
 
     <!--Section contatti-->
-    <div class="container-fluid px-5 my-5">
+    <div id="prenota" class="container-fluid px-5 my-5">
         <div class="row justify-content-center">
             <div class="col-xl-10">
                 <div class="card border-0 rounded-0 shadow overflow-hidden borde-2">
@@ -546,7 +582,8 @@
                             <div class="col-sm-6 p-4">
                                 <div class="text-center">
                                     <div class="h3 fw-light">Contattaci per prenotare</div>
-                                    <p class="mb-4 text-muted font-dosis">Inserisci le tue informazioni nel seguente form, verrai contattato e verrai ricontattato al più presto</p>
+                                    <p class="mb-4 text-muted font-dosis">Inserisci le tue informazioni nel seguente
+                                        form, verrai contattato e verrai ricontattato al più presto</p>
                                 </div>
                                 <form id="contactForm" data-sb-form-api-token="API_TOKEN">
 
@@ -563,7 +600,8 @@
                                     <div class="form-floating mb-3">
                                         <input class="form-control" id="emailAddress" type="email"
                                             placeholder="Email Address" data-sb-validations="required,email" />
-                                        <label for="emailAddress" class="text-muted text-small">Inserisci la tua e-mail</label>
+                                        <label for="emailAddress" class="text-muted text-small">Inserisci la tua
+                                            e-mail</label>
                                         <div class="invalid-feedback" data-sb-feedback="emailAddress:required">Email
                                             Address is required.</div>
                                         <div class="invalid-feedback" data-sb-feedback="emailAddress:email">Email
@@ -596,8 +634,8 @@
 
                                     <!-- Submit button -->
                                     <div class="d-grid">
-                                        <button class="disabled text-white font-dosis border-0 py-3  bg-acc" id="submitButton"
-                                            type="submit">Invia adesso</button>
+                                        <button class="disabled text-white font-dosis border-0 py-3  bg-acc"
+                                            id="submitButton" type="submit">Invia adesso</button>
                                     </div>
                                 </form>
                                 <!-- End of contact form -->
@@ -614,55 +652,67 @@
     <!--Footer-->
     <div class="container">
         <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top">
-          <div class="col mb-3">
-            <a href="/" class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none">
-              <img src="/assets/logocorretto.png" alt="">
-            </a>
-            <p class="tx-1">Leonardo Di Napoli © 2024</p>
-          </div>
-      
-          <div class="col mb-3">
-      
-          </div>
-      
-          <div class="col mb-3">
-            <h5 class="tx-1">Sezioni</h5>
-            <ul class="nav flex-column">
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary font-dosis">Home</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary font-dosis">Tours</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary font-dosis">Voli</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary font-dosis">Valori</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary font-dosis">Contattaci</a></li>
-            </ul>
-          </div>
-      
-          <div class="col mb-3">
-            <h5 class="tx-1">Infromazioni</h5>
-            <ul class="nav flex-column">
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary font-dosis">Privacy Policy</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary font-dosis">Use of terms</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary font-dosis">Copyright</a></li>
-             
-            </ul>
-          </div>
-      
-          <div class="col mb-3">
-            <h5 class="tx-1">Seguici</h5>
-            <ul class="nav flex-column">
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">
-                <i class="bi bi-facebook tx-acc"></i>
-              </a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">
-                <i class="bi bi-instagram tx-acc"></i>
-              </a></li>
-              <li class="nav-item mb-2"><a href="https://www.linkedin.com/in/leonardo-di-napoli-developer/" class="nav-link p-0 text-body-secondary">
-                <i class="bi bi-linkedin tx-acc"></i>
-              </a></li>
-             
-            </ul>
-          </div>
+            <div class="col mb-3">
+                <a href="/" class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none">
+                    <img src="/assets/logocorretto.png" alt="">
+                </a>
+                <p class="tx-1">Leonardo Di Napoli © 2024</p>
+            </div>
+
+            <div class="col mb-3">
+
+            </div>
+
+            <div class="col mb-3">
+                <h5 class="tx-1">Sezioni</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary font-dosis">Home</a>
+                    </li>
+                    <li class="nav-item mb-2"><a href="#tours"
+                            class="nav-link p-0 text-body-secondary font-dosis">Tours</a>
+                    </li>
+                    <li class="nav-item mb-2"><a href="#voli"
+                            class="nav-link p-0 text-body-secondary font-dosis">Voli</a>
+                    </li>
+                    <li class="nav-item mb-2"><a href="#valori"
+                            class="nav-link p-0 text-body-secondary font-dosis">Valori</a>
+                    </li>
+                    <li class="nav-item mb-2"><a href="#prenota"
+                            class="nav-link p-0 text-body-secondary font-dosis">Contattaci</a></li>
+                </ul>
+            </div>
+
+            <div class="col mb-3">
+                <h5 class="tx-1">Infromazioni</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary font-dosis">Privacy
+                            Policy</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary font-dosis">Use of
+                            terms</a></li>
+                    <li class="nav-item mb-2"><a href="#"
+                            class="nav-link p-0 text-body-secondary font-dosis">Copyright</a></li>
+
+                </ul>
+            </div>
+
+            <div class="col mb-3">
+                <h5 class="tx-1">Seguici</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">
+                            <i class="bi bi-facebook tx-acc"></i>
+                        </a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">
+                            <i class="bi bi-instagram tx-acc"></i>
+                        </a></li>
+                    <li class="nav-item mb-2"><a href="https://www.linkedin.com/in/leonardo-di-napoli-developer/"
+                            class="nav-link p-0 text-body-secondary">
+                            <i class="bi bi-linkedin tx-acc"></i>
+                        </a></li>
+
+                </ul>
+            </div>
         </footer>
-      </div>
+    </div>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
